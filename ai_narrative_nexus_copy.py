@@ -17,6 +17,8 @@ import base64
 from io import BytesIO
 from wordcloud import WordCloud, STOPWORDS
 
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # Transformers for Abstractive Summarization
 try:
@@ -742,4 +744,5 @@ if st.session_state.text_data and st.session_state.text_data.strip():
                                "cleaned_text.txt", use_container_width=True)
 
 st.markdown("---")
+
 st.caption("**Narrative Nexus** — Dynamic Text Analysis Platform | Developed by Arkadev")
