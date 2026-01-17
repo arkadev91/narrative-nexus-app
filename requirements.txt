@@ -1,0 +1,15 @@
+streamlit
+python-docx
+pandas
+seaborn
+numpy
+sklearn
+heapq
+numpy
+base64
+io
+wordcloud
+nltk
+plotly
+textblob
+collections
