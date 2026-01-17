@@ -1,15 +1,10 @@
 streamlit
 python-docx
 pandas
-seaborn
 numpy
-sklearn
-heapq
-numpy
-base64
-io
+scikit-learn
 wordcloud
 nltk
 plotly
 textblob
-collections
+seaborn
